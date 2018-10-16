@@ -1,2 +1,4 @@
 # cloud_config
 config: this is a test 5
+server:
+  port: 9090
