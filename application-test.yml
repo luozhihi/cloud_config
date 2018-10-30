@@ -8,8 +8,9 @@ eureka:
     fetch-registry: true
 spring:
   cloud:
-    bus: 
-      enable: true
+    bus:
+      refresh:
+        enable: true
   kafka:
     producer:
       retries: 0
