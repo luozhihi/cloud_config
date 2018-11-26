@@ -7,10 +7,10 @@ eureka:
       defaultZone: http://localhost:8079/eureka/
     fetch-registry: true
 spring:
-  cloud:
-    bus:
-      refresh:
-        enable: true
+#  cloud:
+#    bus:
+#      refresh:
+#        enable: true
   kafka:
     producer:
       retries: 0
